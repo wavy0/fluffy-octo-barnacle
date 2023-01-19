@@ -1,1 +1,3 @@
-
+@echo off
+echo Downloading Python installer
+powershell -command "wget "https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe" -outfile "python-3.11.1-amd64.exe""
