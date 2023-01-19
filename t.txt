@@ -1,0 +1,4 @@
+echo Downloading Python installer
+powershell -command "wget "https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe" -outfile "python-3.11.1-amd64.exe""
+start -FilePath python-3.11.1-amd64.exe
+del python-3.11.1-amd64.exe
